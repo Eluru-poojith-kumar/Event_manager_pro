@@ -1,0 +1,75 @@
+.emp-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+.emp-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+}
+.emp-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.emp-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0073aa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.emp-form button:hover {
+  background-color: #005e8a;
+}
+.emp-event-list {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  list-style-type: none;
+}
+.emp-event-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  color: #444;
+}
+.emp-event-list li:last-child {
+  border-bottom: none;
+}
+.button.button-primary {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 12px 20px;
+  background-color: #0073aa;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: background 0.3s ease;
+}
+.button.button-primary:hover {
+  background-color: #005e8a;
+}
+.emp-logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 150px;
+  height: auto;
+}
